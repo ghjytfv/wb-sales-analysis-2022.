@@ -41,17 +41,9 @@ The portfolio analysis was independently recalculated from the source rows using
 
 A separate source-data correction documented in the workbook involved trimming trailing whitespace from one SKU. The public project does not include that SKU or its underlying transaction row.
 
-## Visuals
+## Analysis outputs
 
-### Category profitability (anonymized)
-
-![Top category profit index](screenshots/category_profit_index.png)
-
-### Monthly performance (indexed)
-
-![Monthly revenue and profit trend](screenshots/monthly_trends_index.png)
-
-The monthly chart is indexed to February = 100. Values show relative change against February, not absolute revenue or profit.
+The analysis script calculates category-level profitability and monthly performance locally. The public repository intentionally excludes source-derived charts to avoid exposing commercial values or category-level patterns that could identify the underlying business.
 
 ## Reproducibility
 

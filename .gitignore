@@ -1,0 +1,11 @@
+# Source and working data must remain local
+*.xlsx
+*.xls
+*.csv
+*.db
+*.log
+.env
+.DS_Store
+__pycache__/
+.venv/
+venv/
